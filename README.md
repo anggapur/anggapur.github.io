@@ -1,19 +1,12 @@
 # The story: Geekseat Witch Saga: Return of The Coder!
 
 This is a result of assign from GeekSeat.
-MVC OOP created with PHP from scrath, so this is really simple MVC.
-The routing on index.php
+MVC OOP created with PHP from scrath, so this is really really simple MVC.
 
-## Installing
+## How to Use
 
-Installation is super-simple. Grab [Composer](http://getcomposer.org/) and run `composer install` in the Git repository directory.
-
-## Explanation
-
-The idea behind this is that reading, modifying and breaking it will teach a person how to work with MVC in PHP. The comments included in it are also helpful.
-
-As a 3-bullet-point primer, I like to think of MVC in this way:
-
-* **The Model** - Concerned with data. Creating, Reading, Updating and Deleting.
-* **The View** - Concerned with appearance. How the application looks.
-* **The Controller** - Concerned with behaviour. How the application acts and flows.
+When you access ..., you will see the landing page that contains of form. You need to input that form. After that, you will able to click "Get the Answer" Button to get the answers/results. If you wanna to reset everything, then click "Reset" Button.
+\n
+Note :
+* The different between Year of Death and Age of Death cannot be negative, if there is a different that negative, you will not get the answer and also there is a notification about that.
+* You cannot set Age of Death or Year of death smaller than 0
