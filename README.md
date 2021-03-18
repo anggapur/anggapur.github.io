@@ -1,8 +1,8 @@
-# PHP MVC Sample
+# The story: Geekseat Witch Saga: Return of The Coder!
 
-This is a little demonstration of how MVC applications work in PHP. I wrote this code during a live demo so it's not 100% and some shortcuts were taken to speed up the development.
-
-The idea is to give an understanding of how MVC works, not just specifically in PHP, but in general.
+This is a result of assign from GeekSeat.
+MVC OOP created with PHP from scrath, so this is really simple MVC.
+The routing on index.php
 
 ## Installing
 

@@ -5,9 +5,9 @@ require_once 'vendor/autoload.php';
 // Define the routes table
 $routes = [
     // '/\/hello\/(.+)/' => array('HelloController', 'helloAction'),    
-    '/\index/' => array('HomeController', 'index'),
-    '/\getAverage/' => array('HomeController', 'getAverage'),
-    '/negative/' => array('HomeController', 'negative'),
+    '/\getAverage/' => array('HomeController', 'getAverage'),    
+    '/\index/' => array('HomeController', 'index'),  
+    '/\//' => array('HomeController', 'index'),      
 ];
 
 // Decide which route to run
