@@ -1,42 +1,312 @@
 <!DOCTYPE html>
-    <head></head>
+    <head>
+        <title>Angga Purnajiwa</title>
+        <style>
+            #profilPic {
+                width: 200px;
+                border-radius: 200px;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            #header {
+                display: flex;
+                width: 100%;   
+                justify-content: space-between;             
+            }            
+            div#menu ul {
+                display: inline-flex;
+                padding: 0px;
+                margin: 5px 0px;
+            }
+            div#menu {
+                background: #efefef
+            }
+            div#menu ul li {
+                padding: 5px;
+                font-size: 19px;
+                list-style: none;
+            }
+            section#content {
+                width: 1000px;
+                margin: 0 auto;
+            }
+            section#header {
+                width: 1000px;
+                margin: 0 auto;
+            }
+            h2 {
+                background: #efefef;
+                padding: 7px 6px;
+            }
+        </style>
+    </head>
     <body>
-        <h1>Angga Purnajiwa</h1>
-        <p>
-            <strong>I Gede Angga Purnajiwa Arimbawa</strong><br>
-            <strong>Backend & Blockchain Developer</strong>
-        </p>
+        <section id="header">
+            <div>
+                <h1>Angga Purnajiwa</h1>
+                <p>                    
+                    <strong>Backend (and Blockchain) Developer</strong><br>
+                    Stockbit - PT Trenologi Indonesia
+                </p>
 
-        <p>
-            Phone : +62819 0732 0901<br>
-            Email : anggapurdeveloper@gmail.com
-        </p>
+                <p>
+                    Email: arimbawaangga (at) gmail.com<br>
+                    Phone: +62819-0732-0901<br>                    
+                    Github: <a href="https://github.com/anggapur">github.com/anggapur</a><br>
+                    Dev.to: <a href="https://dev.to/anggapur">dev.to/anggapur</a><br>
+                    Dev.to: <a href="www.linkedin.com/in/angga-pur">linkedin.com/in/angga-pur</a><br>
+                </p>
+            </div>
+            <div>
+                <img src="profile-pic.png" id="profilPic">
+            </div>
+        </section>
 
         <!-- Menu Bar -->
-        <div>
-            <ul>
-                <li>Experiences</li>
-                <li>Honors & Awards</li>
-                <li>Educations</li>
-                <li>Papers & Publications</li>
-                <li>Writings</li>
-                <li>Projects</li>
-            </ul>
-        </div>
+        <section id="content" style="float: none;">
+            <div id="menu">
+                <ul>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#honors">Honors & Awards</a></li>
+                    <li><a href="#educations">Educations</a></li>
+                    <li><a href="#papers">Papers & Publications</a></li>
+                    <li><a href="#writings">Writings</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#organizations">Organizations & Communities</a></li>
+                </ul>
+            </div>
 
-        <!-- Intro -->
-        <p></p>
-        
-        <h2>Experiences</h2>
+            <!-- Intro -->
+            <p>
+                ...
+            </p>
+            
+            <!-- Experiences -->
+            <div id="experiences">
+                <h2>Experiences</h2>
+                <ul>
+                    <li>
+                        <div class="content">
+                            <div class="title">
+                                <strong>Blockchain Engineer</strong>
+                                <span>Aug 2022 - Now</span>
+                            </div>
+                            <div class="location">
+                                PT Trenologi Indonesia (Stockbit - Bibit) · Jakarta, Indonesia
+                            </div>
+                            <div class="roles">
+                                <ul>
+                                    <li>
+                                        Effectively integrating blockchain technology into application and preparing infrastructure for on-ramps and off-ramps for coins and tokens
+                                    </li>
+                                    <li>
+                                        Introduce new technology such as DID (Decentralized Identifier) into systems to improve data security & effectively design systems that use blockchain technology.
+                                    </li>
+                                    <li>
+                                        Actively sharing knowledge regarding blockchain technology to team
+                                    </li>
+                                    <li>
+                                        Promoted as team leader for blockchain team and responsible for managerial role in team
+                                    </li>
+                                </ul>                   
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <div class="title">
+                                <strong>Full Stack Engineer</strong>
+                                <span>April 2021 - Jul 2022</span>
+                            </div>
+                            <div class="location">
+                                PT Itsavirus Bali Development · Bali, Indonesia
+                            </div>
+                            <div class="roles">
+                                <ul>
+                                    <li>
+                                        Creatively build backend services for web3 projects
+                                    </li>
+                                    <li>
+                                        Actively review frontend services’s code for web3 projects
+                                    </li>
+                                    <li>
+                                        Learned about blockchain technology and sharing knowledge regarding web3 infrastructures
+                                    </li>
+                                    <li>
+                                        Promoted as tech lead for blockchain & web3 projects
+                                    </li>
+                                </ul>                   
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <div class="title">
+                                <strong>Software Engineer</strong>
+                                <span>Feb 2020 – Mar 2021</span>
+                            </div>
+                            <div class="location">
+                                Cuscapi Berhad · Kuala Lumpur, Malaysia
+                            </div>
+                            <div class="roles">
+                                <ul>
+                                    <li>Actively build backend services for FnB applications</li>
+                                    <li>Creatively giving ideas and suggestion to Solution Architect when designing new features</li>
+                                    <li>Handle and guide deployment, integration among services and bug fixes.</li>
+                                    <li>Actively collaborate with colleague from multiple department and various people cross country</li>
+                                    <li>Onboard and guide new developer into projects</li>
+                                    <li>Promoted as Lead for Backend Engineers</li>
+                                </ul>                   
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <div class="title">
+                                <strong>Web Developer</strong>
+                                <span>June 2018 – Jan 2020</span>
+                            </div>
+                            <div class="location">
+                                PT Ganeca Digital · Bali, Indonesia
+                            </div>
+                            <div class="roles">
+                                <ul>
+                                   <li>As part time junior web developer responsible to write clean code, designing database, maintenance backend services and write documentation for projects</li>
+                                   <li>Learn to manage small team that consist of backend engineers, frontend engineers, designer and quality assurance</li>
+                                   <li>Onboarding users into applications, identify user's difficulty while using applications</li>
+                                </ul>                   
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
-        <h2>Honors & Awards</h2>
+            <!-- Hono -->
+            <div id="honors">
+                <h2>Honors & Awards</h2>
+                <ul>
+                    <li>
+                        <div>
+                            <strong>Gold Award</strong><br>
+                            International Innovation Creativity & Technology Exhibition · Malaysia · 2019
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <strong>1st Winner</strong><br>
+                            Region Competition for ASEAN Skills Competition (ASC) XII for Web Design · Bali · 2016
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <strong>Silver Medal</strong><br>
+                            Web Page Design & Development · Thailand · 2016
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <strong>3rd Winner</strong><br>
+                            Vocational Competency Competition in National Level for Web Development · Malang · 2016
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
-        <h2>Educations</h2>
+            <div id="educations">
+                <h2>Educations</h2>
+                <ul>
+                    <li>
+                        <strong>Bachelor of Computer Science in Udayana University</strong><br>
+                        <ul>
+                            <li>Major in Natural Language Processing</li>
+                            <li>Graduated in November 2020</li>
+                            <li>Best Graduate of Mathematics & Natural Science Faculty in 2020</li>
+                            <li>Awardee of scholarship from Lestari Bank Bali</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Software Engineering Department in SMKN 1 Denpasar (Vocational High School)</strong><br>
+                        <ul>                                                    
+                            <li>Graduated in 2016</li>
+                            <li> Best Student in First & Second Year</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
-        <h2>Papers & Publications</h2>
+            <div id="papers">
+                <h2>Papers & Publications</h2>
+                <ul>                    
+                    <li>
+                        <a href="https://ojs.unud.ac.id/index.php/JLK/article/view/61503">
+                            Application of the Adaboost Method for Multi-Label Classification in Text Documents
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ojs.unud.ac.id/index.php/JLK/article/view/51892">
+                            Lemmatization in Balinese Language (Natural Language Processing)
+                        </a>                        
+                    </li>
+                </ul>
+            </div>
 
-        <h2>Writings</h2>
+            <div id="writings">
+                <h2>Writings</h2>
+                <ul>
+                    <li>
+                        <a href="https://dev.to/anggapur/build-a-better-commitment-between-client-and-worker-in-freelance-market-with-blockchain-technology-4092">
+                            Build a Better Commitment between Client and Worker in Freelance Market with Blockchain Technology
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://dev.to/anggapur/cross-token-blockchain-bridge-2ika">
+                            (Cross Token) Blockchain Bridge?
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://dev.to/anggapur/user-authentication-with-web3-4he8">
+                            User Authentication with Web3
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-        <h2>Projects</h2>
+            <div id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <a href="https://insured.finance/">
+                            Insured Finance (Web3 & DeFi)
+                        </a> <br>
+                        (EVM, Solidity, React.js, Ether.js, Hardhat, JS + Typescript, Node.js)
+                    </li>
+                    <li>
+                        <a href="https://ididenpasar.org/">
+                            IDI Denpasar
+                        </a> <br>
+                        (Laravel, PHP, MySQL)
+                    </li>
+                </ul>
+            </div>
+
+            <div id="organizations">
+                <h2>Organizations & Communities</h2>
+                <ul>
+                    <li>
+                        <div>
+                            <strong>SIC (Student Innovation Centre) in Udayana University</strong><br>
+                            Academic Organization of Computer Science Department · Chairman · 2018 – 2019
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <strong>Scouts</strong><br>
+                            Scout organization in SMKN 1 Denpasar · Chairman · 2015 - 2016
+                        </div>
+                    </li>
+                </ul>                
+            </div>
+        </section>
     </body>
 </html>
